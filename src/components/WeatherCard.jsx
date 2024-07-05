@@ -62,7 +62,7 @@ export const WeatherCard = ({ data, toggleModal }) => {
 
         {data && data.list && data.list.length > 0 && (
           <figure className="w-24 md:w-48 absolute top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 z-50">
-            <img src={`/public/icons/${data.list[0].weather[0].icon}.png`} alt="" className="w-full" />
+            <img src={`/icons/${data.list[0].weather[0].icon}.png`} alt="" className="w-full" />
           </figure>
         )}
       </div>
