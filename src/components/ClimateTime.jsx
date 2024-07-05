@@ -51,7 +51,7 @@ export const ClimateTime = () => {
                                 {new Date(forecast.dt * 1000).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })}
                             </p>
                             <img
-                                src={`public/icons/${forecast.weather[0].icon}.png`}
+                                src={`/public/icons/${forecast.weather[0].icon}.png`}
                                 alt="weather icon"
                                 className="mx-auto w-11 h-11 items-center"
                             />
